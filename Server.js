@@ -1,6 +1,6 @@
 import http from "http"
 
-const names = ["gaurav", "saurav"]
+const names = ["gaurav", "saurav" , "sachin" , "deepak"]
 
 const server = http.createServer((req, res) => {
   if (req.method === "GET") {
