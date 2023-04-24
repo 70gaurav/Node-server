@@ -1,0 +1,11 @@
+html
+    head
+        title= pageTitle
+    body 
+        .container
+            h1#titleHeading= pageHeading
+            .login-panel 
+                form(method="post" action="/users/dashboard")
+                    input(type="text" name="username" placeholder="Username")
+                    input(type="password" name="password" placeholder="Password")
+                    button(type="submit")= buttonText
